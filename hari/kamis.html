@@ -1,0 +1,70 @@
+<!-- Author : Aril Aprilio -->
+
+<html>
+<head>
+<title>Aril Aprilio - Jadwal</title>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="Unknown45">
+<meta property="og:site_name" content="Aril Aprilio - Jadwal">
+<meta name="theme-color" content="#000">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<table width="100%" height="100%">
+<td><center>
+<br>Jadwal Hari Kamis<br>
+Fisika ( <b>07.30 – 09.15</b> )<br>
+Bahasa Inggris ( <b>09.15 - 11.20</b> )<br>
+TIK ( <b>11.20 – 12.30</b> )<br>
+<br><br>Login : <a href="http://belajar.mansalotim.sch.id" target=_blank>E Learning</a><br><br><small>
+<script type='text/javascript'>
+			<!--
+			var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+			var date = new Date();
+			var day = date.getDate();
+			var month = date.getMonth();
+			var thisDay = date.getDay(),
+			    thisDay = myDays[thisDay];
+			var yy = date.getYear();
+			var year = (yy < 1000) ? yy + 1900 : yy;
+			document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+			//-->
+		</script>
+		<script type="text/javascript">
+		<!--
+		function showTime() {
+		    var a_p = "";
+		    var today = new Date();
+		    var curr_hour = today.getHours();
+		    var curr_minute = today.getMinutes();
+		    var curr_second = today.getSeconds();
+		    if (curr_hour < 12) {
+		        a_p = "AM";
+		    } else {
+		        a_p = "PM";
+		    }
+		    if (curr_hour == 0) {
+		        curr_hour = 12;
+		    }
+		    if (curr_hour > 12) {
+		        curr_hour = curr_hour - 12;
+		    }
+		    curr_hour = checkTime(curr_hour);
+		    curr_minute = checkTime(curr_minute);
+		    curr_second = checkTime(curr_second);
+		 document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+		    }
+
+		function checkTime(i) {
+		    if (i < 10) {
+		        i = "0" + i;
+		    }
+		    return i;
+		}
+		setInterval(showTime, 500);
+		//-->
+		</script>
+        <div id="clock"></div>
+</td>
+
